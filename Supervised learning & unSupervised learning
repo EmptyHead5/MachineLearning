@@ -1,0 +1,19 @@
+监督学习是机械学习的一种，在给予input并且期望指定的ouput
+
+
+
+
+非监督学习是机械学习的一种，但是此时的输入和输出并没有特定关系，也并没有给定具体的output，而是通过输入和输出将数据分为不同的集群(cluster)。
+data only come with input x,but no output y,to be instance, the algorithm has to find a structure/patten/cluster in the data.
+此时所期望的输出是对数据的一种总结或分类，而不是一个具体的输出。
+这也是Cluster algorithm的基础理念
+-Cluster algorithm
+    EG：Clustering DNAmicroarray：就是一个很好的非监督学习的例子，通过机器学习自动的将不同类别的DNA所对应不同人和不同作用的DNA，分为几个或多个cluster/GROUPS,而不是给定一个具体的output,这也是监督学习
+        所不能做到的，相较于监督学习的指定output，非监督学习的output是通过数据自己的特性来决定的。
+    EG2:Clustering Groping Customer:通过将客户数据进行处理，来自动的将客户分为不同的类别，而不是给定一个具体的output。
+-
+
+监督学习通常回给出一个具体的输出，无论是数字还是一个结果
+非监督学习则不会给出具体的输出，只会给出有相同特性的群组/集群/特征的数据
+如果数据期望有具体结果例如:分辨邮件是否为垃圾邮件，分析患者的肿瘤是否为恶性肿瘤，那么就需要使用监督学习
+如果数据期望只是对数据进行分类，例如：给出文章将他们范围类不同集合。给出用户数据库，去分析用户的特征，那么就需要使用非监督学习

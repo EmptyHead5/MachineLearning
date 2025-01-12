@@ -1,0 +1,11 @@
+terminal code
+git status
+git add .
+git commit -m ""//(submit message)
+git push origin main//(branch-name)
+git pull origin main
+
+覆盖
+git fetch origin
+git reset --hard origin/main
+ 
